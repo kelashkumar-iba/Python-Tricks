@@ -1,16 +1,5 @@
 import qrcode
 
-# Create QR code
-qr = qrcode.QRCode(
-    version=1,
-    error_correction=qrcode.constants.ERROR_CORRECT_L,
-    box_size=10,
-    border=4,
-)
-data = "https://www.example.com"
-qr.add_data(data)
-qr.make(fit=True)
+qr_img = qrcode.make("www.linkedin.com/in/kelash")
 
-# Create an image of the QR code
-img = qr.make_image(fill='black', back_color='white')
-img.save("example_qr.png")
+qr_img.save("qr-img.jpg")
