@@ -7,6 +7,6 @@ yt = YouTube(video_url)
 stream = yt.streams.first()
 
 # Download the video
-stream.download(output_path='downloads')
+stream.download(output_path='Downloads')
 
 print("Download Completed Successfully.")
