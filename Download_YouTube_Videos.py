@@ -9,4 +9,4 @@ stream = yt.streams.first()
 # Download the video
 stream.download(output_path='downloads')
 
-print("Download completed successfully.")
+print("Download Completed Successfully.")
