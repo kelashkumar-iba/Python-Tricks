@@ -10,4 +10,4 @@ def countdown_timer(seconds):
 
     print("Time's up!")
 
-countdown_timer(5)
+countdown_timer(2)
