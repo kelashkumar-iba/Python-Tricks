@@ -7,7 +7,3 @@ def generate_password(length=12):
     return password
 
 print(f"Generated Password: {generate_password(16)}")
-
-
-
-    return ''.jo
