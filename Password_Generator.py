@@ -10,4 +10,4 @@ print(f"Generated Password: {generate_password(16)}")
 
 
 
-    return ''.join(random.choice('0123456789') for _ in range(length))
+    return ''.jo
