@@ -13,4 +13,4 @@ print(f"Generated Password: {generate_password(16)}")
 def phone_number(length = 10):
     return "".join(random.choice("0123456789"))
 
-print(f"Generated Phone Number: {phone_number(length = 10)}")
+print(f"Generated Phone Number: {phone_number(10)}")
